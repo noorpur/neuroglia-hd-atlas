@@ -1,5 +1,5 @@
-from pathlib import Path
 import py_compile
+from pathlib import Path
 
 
 def test_big_pipeline_script_compiles():

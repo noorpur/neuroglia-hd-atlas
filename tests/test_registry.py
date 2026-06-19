@@ -1,5 +1,5 @@
-from neuroglia_hd.data.registry import get_record, list_records
 from neuroglia_hd.data.geo import geo_series_prefix, geo_supplementary_url
+from neuroglia_hd.data.registry import get_record, list_records
 
 
 def test_registry_contains_expected_accessions():
