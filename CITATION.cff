@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "NeuroGlia-HD Atlas: Cell-Type-Aware Machine Learning for Huntingtonian Neuroglial State Modelling"
+message: "If you use this repository, please cite it using this metadata and cite the original datasets listed in references.bib."
+type: software
+authors:
+  - family-names: Zahra
+    given-names: Noor Ul Ain
+    email: noorzahra01@gmail.com
+repository-code: "https://github.com/noorpur/neuroglia-hd-atlas"
+license: MIT
+version: 0.1.0
+date-released: 2026-06-18
+keywords:
+  - biomedical-ai
+  - single-nucleus-rna-seq
+  - Huntington-disease
+  - neurodegeneration
+  - glia
+  - machine-learning

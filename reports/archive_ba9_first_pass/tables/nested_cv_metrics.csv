@@ -1,0 +1,16 @@
+model,outer_fold,inner_best_roc_auc,outer_roc_auc,outer_average_precision,outer_balanced_accuracy,outer_f1,outer_brier,best_params,n_train,n_test
+logistic_regularized,0,0.9811965811965813,1.0,1.0,1.0,1.0,0.01609852894386268,{'clf__C': 0.3},55,14
+logistic_regularized,1,0.9871794871794872,0.9750000000000001,0.95,0.95,0.8888888888888888,0.07280200375324404,{'clf__C': 1.0},55,14
+logistic_regularized,2,0.9871794871794872,1.0,1.0,0.875,0.8571428571428571,0.031189028232595107,{'clf__C': 10.0},55,14
+logistic_regularized,3,0.9914529914529915,1.0,1.0,0.95,0.8888888888888888,0.06082931930857355,{'clf__C': 0.01},55,14
+logistic_regularized,4,0.9952380952380953,1.0,1.0,0.875,0.8571428571428571,0.02985755550834113,{'clf__C': 0.01},56,13
+random_forest,0,0.9803418803418804,1.0,1.0,0.75,0.6666666666666666,0.08503877551020407,"{'clf__max_depth': None, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 700}",55,14
+random_forest,1,0.9786324786324787,1.0,1.0,0.95,0.8888888888888888,0.07004970845481052,"{'clf__max_depth': None, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 700}",55,14
+random_forest,2,0.9743589743589745,1.0,1.0,0.75,0.6666666666666666,0.0758920634920635,"{'clf__max_depth': None, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 300}",55,14
+random_forest,3,1.0,1.0,1.0,0.625,0.4,0.09182619047619048,"{'clf__max_depth': None, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 300}",55,14
+random_forest,4,0.9747252747252747,1.0,1.0,0.875,0.8571428571428571,0.056404866562009395,"{'clf__max_depth': None, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 700}",56,13
+hist_gradient_boosting,0,0.5,1.0,1.0,1.0,1.0,0.013006808595370465,"{'clf__l2_regularization': 0.0, 'clf__learning_rate': 0.03, 'clf__max_iter': 100, 'clf__max_leaf_nodes': 7}",55,14
+hist_gradient_boosting,1,0.5,1.0,1.0,1.0,1.0,0.022248776658341147,"{'clf__l2_regularization': 0.0, 'clf__learning_rate': 0.03, 'clf__max_iter': 100, 'clf__max_leaf_nodes': 7}",55,14
+hist_gradient_boosting,2,0.5,1.0,1.0,1.0,1.0,0.014643377394872157,"{'clf__l2_regularization': 0.0, 'clf__learning_rate': 0.03, 'clf__max_iter': 100, 'clf__max_leaf_nodes': 7}",55,14
+hist_gradient_boosting,3,0.5,1.0,1.0,0.875,0.8571428571428571,0.050426974629063634,"{'clf__l2_regularization': 0.0, 'clf__learning_rate': 0.03, 'clf__max_iter': 100, 'clf__max_leaf_nodes': 7}",55,14
+hist_gradient_boosting,4,0.5,1.0,1.0,1.0,1.0,0.014061968586469917,"{'clf__l2_regularization': 0.0, 'clf__learning_rate': 0.03, 'clf__max_iter': 100, 'clf__max_leaf_nodes': 7}",56,13

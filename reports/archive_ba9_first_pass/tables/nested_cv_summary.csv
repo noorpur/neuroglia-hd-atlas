@@ -1,0 +1,4 @@
+model,mean_outer_roc_auc,std_outer_roc_auc,mean_outer_average_precision,mean_outer_balanced_accuracy,mean_outer_f1,mean_outer_brier
+hist_gradient_boosting,1.0,0.0,1.0,0.975,0.9714285714285713,0.022877581172823465
+random_forest,1.0,0.0,1.0,0.79,0.6958730158730159,0.0758423208990556
+logistic_regularized,0.9949999999999999,0.01118033988749891,0.99,0.93,0.8984126984126984,0.0421552871493233

@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.env
+
+# Data and generated artefacts
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+reports/figures/*
+reports/tables/*
+!reports/figures/.gitkeep
+!reports/tables/.gitkeep
+models/*
+!models/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# macOS
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Large local data and generated matrices
+.venv/
+data/raw/
+data/interim/
+data/processed/
+models/
+logs/
+*.h5
+*.h5ad
+*.rds
+*.rds.gz
+*.tar
+*.tar.gz
+*.parquet
+
+# Local environments
+.venv/
+__pycache__/
+.DS_Store
+
+# Large local data and generated matrices
+data/raw/
+data/interim/
+data/processed/
+models/
+logs/
+*.h5
+*.h5ad
+*.rds
+*.rds.gz
+*.tar
+*.tar.gz
+*.parquet
+*.pkl
+*.pt
